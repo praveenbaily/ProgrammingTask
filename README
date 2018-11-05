@@ -1,0 +1,39 @@
+A simple programming task for retrieving data from the most recently released data for the economic time series - Advance Monthly Sales for Retail and Food Services
+
+The data set can be found at:
+https://api.census.gov/data/timeseries/eits/marts.html
+
+The API base URL:
+https://api.census.gov/data/timeseries/eits/marts
+
+A personal API key could be needed to run the program. The key in the API call can be replaced with the personal API key.
+The API key can be obtained at:
+https://api.census.gov/data/key_signup.html
+
+The program makes a call to the API, asks the programmer input and prints the result based on the input.
+
+Attributes of the data:
+1. Time: Year and Month (from 1992 to 2018)
+2. Category Code: Available category/ industry
+3. Data Type: Sales - Monthly, Sales - Monthly Percentage Change
+4. Seasonal Adjustment: Yes, No
+5. Value: Sales in Million of Dollars or Percentage Change
+
+
+User Input:
+First, the user is asked to enter the time i.e., year and month in the format: 'YYYY-MM'.
+Accepted year range is 1992-2018.
+
+Then, a list of available categories/ industries is listed and the user is asked to enter a valid category from the displayed list.
+The desired category code is expected to be entered as displayed. Only such input is accepted.
+
+Then, a list of available data types is listed and the user is asked to enter a valid data type from the displayed list.
+The desired data type is expected to be entered either is upper case or lower case.
+
+And then, the user if asked if the data to be printed is seasonally adjusted data or not.
+The user is expected to enter 'yes' or 'no' either in upper case or lower case.
+If 'yes' is selected, seasonally adjusted data is printed.
+If 'no' is selected, data that is not seasonally adjusted is printed.
+
+Once, all the input is entered, the desired output is printed.
+The user is given an option to continue to show another result, or exit.
