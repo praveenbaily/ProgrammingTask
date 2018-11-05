@@ -1,4 +1,5 @@
-A simple programming task for retrieving data from the most recently released data for the economic time series - Advance Monthly Sales for Retail and Food Services
+A simple programming task for retrieving data from an API consisting the most recently released data for the economic time series - 
+Advance Monthly Sales for Retail and Food Services
 
 The data set can be found at:
 https://api.census.gov/data/timeseries/eits/marts.html
@@ -14,7 +15,7 @@ The program makes a call to the API, asks the programmer input and prints the re
 
 Attributes of the data:
 1. Time: Year and Month (from 1992 to 2018)
-2. Category Code: Available category/ industry
+2. Category Code: Available categories/ industries
 3. Data Type: Sales - Monthly, Sales - Monthly Percentage Change
 4. Seasonal Adjustment: Yes, No
 5. Value: Sales in Million of Dollars or Percentage Change
